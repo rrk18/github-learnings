@@ -1,0 +1,222 @@
+Python
+
+Able to create and execute a python script
+- that uses Variables and Data types(list, tuple, dict, other standard types)
+- that uses Control Flow statements (Conditional, Looping)
+- that uses Functions, Operators
+- that exercises some File I/O
+- that exercises Exception Handling
+- that uses the Import statement and  exercises methods from a package, difference between a Module and Package and how to use both
+
+Able to use the following Python packages in a python script
+- matplotlib - should be able to plot multiple data sets in the same plot
+- numpy - should be able to create and manipulate integer and float data in NumPy arrays
+- pyvisa - should be able to write code that enables script to connect to VISA enabled instruments (oscilloscope, function generator) etc., read measurements, errors
+
+Understand and implement PEP8 coding guidelines
+
+
+
+pytest
+
+Able to write use the Pytest package
+- to write a simple test
+- create different test classes
+- use different command-line options to run and execute tests
+- to use concept of Fixtures and their scope
+- to learn the use of conftest.py file
+- to exercise using the .ini files
+- to perform logging from within tests
+
+
+OOPs
+
+Able to create and execute a python script for a real-world scenario
+- that defines Classes and Objects
+- that can demonstrate usage of Private and Protected class attributes (Encapsulation)
+- that uses Single and Multiple Inheritance in its flow
+- that uses Method Overriding (Polymorphism)
+- that use Abstract classes and methods (Abstraction) in a meaningful way
+
+
+
+oscilloscope
+
+Learn how to
+- perform time, vertical measurements using GUI and through SCPI commands
+- trigger on different waveform event
+- use math functions on a input signal
+- understand and use mask testing*
+- learn how to use the Connection Expert Interactive IO to fire SCPI
+- learn how to fire SCPI using a C# and Python client program
+- learn the usage of different status registers in the oscilloscope using SCPI
+
+
+
+How to set up acquisition and trigger to acquire data?
+How to set up measurements on acquired signal?
+How to set up a mask file on captured signal ?
+How to set up SCPI commands (remote commands) to do #1 and #2 programatically.
+
+Online resources
+User Guides
+Confluence pages
+YouTube Keysight Channels
+
+https://www.keysight.com/in/en/assets/7018-01761/application-notes/5989-8064.pdf
+InfiniiVision Onboarding Page - https://confluence.it.keysight.com/display/INFINIIVISION/Onboarding
+
+
+Software testing
+
+How to apply following testing techniques to a practical product feature test scenario
+- boundary value analysis
+- decision table-based testing
+- state transition testing
+- error guessing
+
+Demonstrate clear understanding of the differences in types of Testing(manual/automated/smoke/sanity/regression/integration/unit/functional/black box/white box)
+Demonstrate clear understanding of differences between verification and validation
+
+Online training- https://www.geeksforgeeks.org/types-software-testing/
+Session with Pradeep
+https://confluence.it.keysight.com/pages/viewpage.action?pageId=783941789
+
+
+AWG fundamentals
+
+Demonstrate clear understanding of
+- basic block diagram of an AWG
+- types of different AWGs (form factor, specifications used to choose)
+- common features of AWGs (Generation and Queuing of waveforms, Memory per channel, Markers, Triggering)
+- ENOB, Error Vector Magnitude and other parameters used to qualify AWG output
+
+Online resources
+https://www.keysight.com/in/en/assets/7018-01345/application-notes/5989-4138.pdf
+https://www.keysight.com/in/en/learn/course.arbitrary-waveform-generation-basics.html
+https://www.tek.com/en/documents/primer/xyzs-signal-generators
+https://www.ni.com/en/shop/electronic-test-instrumentation/waveform-generators/generating-signals-function-generators.html
+
+
+
+Digitizers
+
+Able to describe
+- block diagram of a digitizer
+- banner specifications, how to choose a digitizer for your application
+- common digitizer features
+- ADCs, quantization error, full-scale range, gain, impedance and other common channel parameters.
+
+Online resources
+https://www.electronicdesign.com/technologies/test-measurement/article/21200915/what-is-a-digitizer\
+https://www.keysight.com/in/en/assets/7018-01761/application-notes/5989-8064.pdf
+
+
+FPGA
+
+Able to describe
+- what is an FPGA device?
+- how Keysight products make use of FPGAs? How does Software interact with them?
+- common terminology - bitstream, gateware, registers
+
+M5300A
+
+Able to
+- describe what an RF AWG is and how it operates?
+- desribe the basic block diagram of an RF AWG
+- Use the Software Front Panel(SFP) to exercise the M5300A AWG
+- Use proper cabling and oscilloscope to capture the waveforms generated
+- Understand specific features and concepts (Upconversion, Phase, Skew, IQ modulation, Amplitude Control, Offset)
+- use all the supported drivers to connect and control the module (Python, C#, C++, MATLAB, LabVIEW, VB)
+- licensing
+
+Guide/In-person training - Sumiran
+User Guides - https://www.keysight.com/in/en/assets/9922-01939/user-manuals/M5300A-User-Guide.pdf
+Confluence pages - https://confluence.it.keysight.com/display/QUAD/Partner+Demos
+https://confluence.it.keysight.com/pages/viewpage.action?pageId=475831521
+https://confluence.it.keysight.com/pages/viewpage.action?pageId=564635756
+https://confluence.it.keysight.com/display/QES/Azure+Specs?src=contextnavpagetreemode
+
+Version Control 	GIT
+
+How to create a branch?
+How to make a commit?
+How to clone a repo?
+How to merge branches?
+How to perform a pull and push action?
+How to set up a tool with credentials?
+
+	Online Book
+
+
+
+Project Specific Information
+
+Jira Board
+Confluence Pages
+Setup Pages
+Slack channels
+PDLs
+Project Team members and their roles	
+
+Guide/In-person training - Sumiran
+
+
+Regression Runs
+
+
+How to run them every week?
+How to add new tests?
+How to debug any detected failures?	
+
+Guide/In-person training - Varun
+
+Windows 	
+
+Able to remote desktop to test machines
+Able to execute Powershell scripts
+    - to copy and move files
+    - to invoke executable on a local machine and on a remote machine using required credentials
+Able to use Task Manager to track applications (process, memory, elevation level)
+Able to use Event Viewer to track crashes and errors during application execution
+Able to use Windows Device Manager
+Able to use Software Center to deploy required software
+
+
+Able to use standard packages managers (chocolatey, nuget, conan)
+Able to use Batch scripting to perform common tasks	
+
+Guide/In-person training
+
+
+
+Hardware Virtual Instrumentation (HVI)	
+
+
+Able to use HVI to control our MxxxxA products
+Able to understanding and use licensing
+Able to use Keysight Distributed Infrastructure (KDI) networks
+Able to use HVI - Sandbox interfaces
+
+Guide/In-person training - Sumiran
+User Guides - https://www.keysight.com/in/en/assets/9923-02365/user-manuals/PathWave-Test-Sync-Executive-2023B-User-Manual.pdf
+Confluence pages -
+https://confluence.it.keysight.com/display/RDBAR/KS2201A+Training+Series+for+Tier+3+Team?src=contextnavpagetreemode
+
+
+
+PathWave FPGA Sandbox	
+
+
+Understand concepts of Open FPGA architecture (A, B and R images, partial reconfiguration and its role in PCIe based interfaces)
+How to create custom designs using the PathWave FPGA tool
+How to deploy the design on Sandbox supported M5xxxxA modules	
+
+
+Guide/In-person training
+User Guides
+Confluence pages
+
+
+
+
